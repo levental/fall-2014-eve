@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+
+    <head>
+        <title>"About Mr. Levental"</title>
+        <link rel="stylesheet" href="{% static "css/base.css" %}" /> <!-- CSS -->
+        <script src="{% static "js/jquery.js" %}"></script> <!-- JavaScript -->
+    </head>
+
+    <body>
+        <h1>Including Static Media</h1>
+        <a href="/rango/">index</a><br />
+        <img src="{% static "simcha.jpg" %}" alt="Picture of Simcha" /> <!-- Images -->
+    </body>
+
+</html>
